@@ -1,0 +1,3 @@
+/Users/aadeshshah/pico/PicoPong/build/pioasm/CMakeFiles/pioasm.dir
+/Users/aadeshshah/pico/PicoPong/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/aadeshshah/pico/PicoPong/build/pioasm/CMakeFiles/rebuild_cache.dir
