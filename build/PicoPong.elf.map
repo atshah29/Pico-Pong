@@ -1541,9 +1541,9 @@ Discarded input sections
  .debug_frame   0x00000000      0x14c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x00000000        0x0 /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//ccED4Xl3.o
- .data          0x00000000        0x0 /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//ccED4Xl3.o
- .bss           0x00000000        0x0 /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//ccED4Xl3.o
+ .text          0x00000000        0x0 /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//cchuzTJS.o
+ .data          0x00000000        0x0 /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//cchuzTJS.o
+ .bss           0x00000000        0x0 /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//cchuzTJS.o
  .data          0x00000000        0x0 /Users/aadeshshah/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /Users/aadeshshah/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /Users/aadeshshah/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-calloc.o)
@@ -1791,7 +1791,7 @@ LOAD /Users/aadeshshah/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eab
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//ccED4Xl3.o
+ .boot2         0x10000000      0x100 /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//cchuzTJS.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2788,7 +2788,7 @@ LOAD /Users/aadeshshah/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eab
                 0x1000901c      0x1e0 CMakeFiles/PicoPong.dir/pico-ssd1306/ssd1306.c.obj
                 0x1000901c                font_8x5
  .rodata.main.str1.4
-                0x100091fc       0x22 CMakeFiles/PicoPong.dir/PicoPong.c.obj
+                0x100091fc       0x21 CMakeFiles/PicoPong.dir/PicoPong.c.obj
  .rodata.i2c_set_baudrate.str1.4
                 0x100091fc       0x68 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
  .rodata.__func__.0
@@ -3498,7 +3498,7 @@ LOAD CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/sr
 LOAD CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//ccED4Xl3.o
+LOAD /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//cchuzTJS.o
 LOAD /Users/aadeshshah/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /Users/aadeshshah/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3621,7 +3621,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000826       0x2c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000852       0x22 /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//ccED4Xl3.o
+                0x00000852       0x22 /var/folders/m8/h9brsbyd7nbcd9y0y7lzldrr0000gn/T//cchuzTJS.o
  .ARM.attributes
                 0x00000874       0x1e /Users/aadeshshah/.pico-sdk/toolchain/13_2_Rel1/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -3693,55 +3693,55 @@ LOAD linker stubs
  .comment       0x00000044       0x45 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
  .comment       0x00000044       0x45 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_info     0x00000000    0x27438
+.debug_info     0x00000000    0x27420
  .debug_info    0x00000000     0x1711 CMakeFiles/PicoPong.dir/pico-ssd1306/ssd1306.c.obj
- .debug_info    0x00001711     0x172e CMakeFiles/PicoPong.dir/PicoPong.c.obj
- .debug_info    0x00002e3f     0x15fd CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_info    0x0000443c      0x1fb CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x00004637      0x69a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x00004cd1      0x5fa CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x000052cb     0x33f9 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
- .debug_info    0x000086c4     0x145b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x00009b1f     0x1c43 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x0000b762      0x1a3 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x0000b905     0x1d29 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
- .debug_info    0x0000d62e      0x2cb CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
- .debug_info    0x0000d8f9      0xe82 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
- .debug_info    0x0000e77b      0xfe7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x0000f762     0x184b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00010fad      0x505 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x000114b2      0x4d8 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x0001198a      0x1c7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x00011b51      0x2c6 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_adc/adc.c.obj
- .debug_info    0x00011e17      0xf23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x00012d3a     0x19db CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00014715       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00014738      0x331 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00014a69       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x00014a8c       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x00014aaf      0x33b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x00014dea       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x00014e0d       0x24 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x00014e31       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x00014e54      0x34f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x000151a3       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x000151c6      0x31a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_info    0x000154e0       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00015503       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x00015526      0x2e2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x00015808     0x1747 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00016f4f      0x76e CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_info    0x000176bd     0x175e CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_info    0x00018e1b      0x5d6 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_info    0x000193f1      0x281 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_info    0x00019672     0x127a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_info    0x0001a8ec     0x20ce CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_info    0x0001c9ba      0xfd0 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_info    0x0001d98a     0x3a52 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
- .debug_info    0x000213dc      0x860 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_info    0x00021c3c     0x1b2a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_info    0x00023766     0x14de CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
- .debug_info    0x00024c44     0x27f4 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_info    0x00001711     0x1716 CMakeFiles/PicoPong.dir/PicoPong.c.obj
+ .debug_info    0x00002e27     0x15fd CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_info    0x00004424      0x1fb CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x0000461f      0x69a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x00004cb9      0x5fa CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x000052b3     0x33f9 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+ .debug_info    0x000086ac     0x145b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x00009b07     0x1c43 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x0000b74a      0x1a3 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x0000b8ed     0x1d29 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0000d616      0x2cb CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
+ .debug_info    0x0000d8e1      0xe82 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+ .debug_info    0x0000e763      0xfe7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0000f74a     0x184b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x00010f95      0x505 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0001149a      0x4d8 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x00011972      0x1c7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x00011b39      0x2c6 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_info    0x00011dff      0xf23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x00012d22     0x19db CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x000146fd       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00014720      0x331 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00014a51       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x00014a74       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00014a97      0x33b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x00014dd2       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x00014df5       0x24 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x00014e19       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x00014e3c      0x34f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x0001518b       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x000151ae      0x31a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_info    0x000154c8       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x000154eb       0x23 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x0001550e      0x2e2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x000157f0     0x1747 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x00016f37      0x76e CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_info    0x000176a5     0x175e CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_info    0x00018e03      0x5d6 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_info    0x000193d9      0x281 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_info    0x0001965a     0x127a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_info    0x0001a8d4     0x20ce CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_info    0x0001c9a2      0xfd0 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_info    0x0001d972     0x3a52 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+ .debug_info    0x000213c4      0x860 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_info    0x00021c24     0x1b2a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_info    0x0002374e     0x14de CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+ .debug_info    0x00024c2c     0x27f4 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_abbrev   0x00000000     0x7b02
  .debug_abbrev  0x00000000      0x3fe CMakeFiles/PicoPong.dir/pico-ssd1306/ssd1306.c.obj
@@ -3794,83 +3794,83 @@ LOAD linker stubs
  .debug_abbrev  0x00007688      0x47a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_loclists
-                0x00000000    0x10ba7
+                0x00000000    0x10b86
  .debug_loclists
                 0x00000000      0xc9a CMakeFiles/PicoPong.dir/pico-ssd1306/ssd1306.c.obj
  .debug_loclists
-                0x00000c9a      0x50f CMakeFiles/PicoPong.dir/PicoPong.c.obj
+                0x00000c9a      0x4ee CMakeFiles/PicoPong.dir/PicoPong.c.obj
  .debug_loclists
-                0x000011a9      0xd36 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x00001188      0xd36 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
  .debug_loclists
-                0x00001edf       0xad CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
+                0x00001ebe       0xad CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
  .debug_loclists
-                0x00001f8c      0x2af CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
+                0x00001f6b      0x2af CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
  .debug_loclists
-                0x0000223b      0x182 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000221a      0x182 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
  .debug_loclists
-                0x000023bd     0x146a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+                0x0000239c     0x146a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
  .debug_loclists
-                0x00003827      0x698 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x00003806      0x698 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
  .debug_loclists
-                0x00003ebf      0xdb7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x00003e9e      0xdb7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
  .debug_loclists
-                0x00004c76       0x50 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
+                0x00004c55       0x50 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
  .debug_loclists
-                0x00004cc6      0xa5b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
+                0x00004ca5      0xa5b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
  .debug_loclists
-                0x00005721       0xad CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
+                0x00005700       0xad CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
  .debug_loclists
-                0x000057ce      0x7aa CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+                0x000057ad      0x7aa CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
  .debug_loclists
-                0x00005f78      0x5c2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00005f57      0x5c2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_loclists
-                0x0000653a      0xb61 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00006519      0xb61 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_loclists
-                0x0000709b      0x214 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000707a      0x214 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
  .debug_loclists
-                0x000072af      0x1fd CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000728e      0x1fd CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_loclists
-                0x000074ac       0x48 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000748b       0x48 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_loclists
-                0x000074f4       0x5c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_adc/adc.c.obj
+                0x000074d3       0x5c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_adc/adc.c.obj
  .debug_loclists
-                0x00007550      0x3d9 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000752f      0x3d9 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_loclists
-                0x00007929     0x16f9 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
+                0x00007908     0x16f9 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
  .debug_loclists
-                0x00009022      0x14d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00009001      0x14d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_loclists
-                0x0000916f       0x41 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000914e       0x41 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
  .debug_loclists
-                0x000091b0       0x4f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000918f       0x4f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
  .debug_loclists
-                0x000091ff      0x15a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x000091de      0x15a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .debug_loclists
-                0x00009359      0x8c2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00009338      0x8c2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_loclists
-                0x00009c1b      0x2b2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00009bfa      0x2b2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .debug_loclists
-                0x00009ecd      0x521 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00009eac      0x521 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .debug_loclists
-                0x0000a3ee       0xe7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000a3cd       0xe7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .debug_loclists
-                0x0000a4d5       0xbd CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000a4b4       0xbd CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
  .debug_loclists
-                0x0000a592      0x665 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000a571      0x665 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
  .debug_loclists
-                0x0000abf7      0xacc CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000abd6      0xacc CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_loclists
-                0x0000b6c3      0x524 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000b6a2      0x524 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_loclists
-                0x0000bbe7     0x182f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+                0x0000bbc6     0x182f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
  .debug_loclists
-                0x0000d416      0x315 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000d3f5      0x315 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_loclists
-                0x0000d72b      0xd05 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000d70a      0xd05 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_loclists
-                0x0000e430      0x912 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+                0x0000e40f      0x912 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
  .debug_loclists
-                0x0000ed42     0x1e65 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000ed21     0x1e65 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_aranges  0x00000000     0x1788
  .debug_aranges
@@ -4065,106 +4065,106 @@ LOAD linker stubs
  .debug_rnglists
                 0x0000160d      0x204 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_line     0x00000000    0x18f75
+.debug_line     0x00000000    0x18f74
  .debug_line    0x00000000      0xbc1 CMakeFiles/PicoPong.dir/pico-ssd1306/ssd1306.c.obj
- .debug_line    0x00000bc1      0xa47 CMakeFiles/PicoPong.dir/PicoPong.c.obj
- .debug_line    0x00001608      0xc91 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_line    0x00002299      0x2ab CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x00002544      0x4b5 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x000029f9      0x49f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00002e98     0x1a16 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
- .debug_line    0x000048ae      0xc53 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00005501     0x10a9 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x000065aa      0x25c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00006806     0x1118 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000791e      0x2ee CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x00007c0c      0x842 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
- .debug_line    0x0000844e      0xa6b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00008eb9      0xc43 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00009afc      0x545 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000a041      0x482 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x0000a4c3      0x2c8 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000a78b      0x33d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_adc/adc.c.obj
- .debug_line    0x0000aac8      0xb60 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000b628     0x12d2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000c8fa      0x11a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000ca14      0x28d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000cca1      0x2a9 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000cf4a      0x3fa CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000d344      0x3dc CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000d720      0x66c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000dd8c       0x61 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000dded      0x3b2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000e19f      0x3d1 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000e570      0x198 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000e708      0x248 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_line    0x0000e950       0x94 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000e9e4       0xa5 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000ea89      0x1ec CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000ec75      0xf34 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000fba9      0x4e3 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0001008c      0xe1c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x00010ea8      0x361 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x00011209      0x3de CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x000115e7      0x8ea CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x00011ed1      0xf54 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x00012e25      0xaf8 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x0001391d     0x1f2f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x0001584c      0x557 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x00015da3      0xdb3 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00016b56      0xc28 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x0001777e     0x17f7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x00000bc1      0xa46 CMakeFiles/PicoPong.dir/PicoPong.c.obj
+ .debug_line    0x00001607      0xc91 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_line    0x00002298      0x2ab CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x00002543      0x4b5 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x000029f8      0x49f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00002e97     0x1a16 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+ .debug_line    0x000048ad      0xc53 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00005500     0x10a9 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x000065a9      0x25c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00006805     0x1118 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000791d      0x2ee CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x00007c0b      0x842 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+ .debug_line    0x0000844d      0xa6b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00008eb8      0xc43 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00009afb      0x545 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000a040      0x482 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x0000a4c2      0x2c8 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0000a78a      0x33d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_line    0x0000aac7      0xb60 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000b627     0x12d2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000c8f9      0x11a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000ca13      0x28d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000cca0      0x2a9 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000cf49      0x3fa CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000d343      0x3dc CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000d71f      0x66c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000dd8b       0x61 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000ddec      0x3b2 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000e19e      0x3d1 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000e56f      0x198 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000e707      0x248 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_line    0x0000e94f       0x94 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000e9e3       0xa5 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000ea88      0x1ec CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000ec74      0xf34 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000fba8      0x4e3 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0001008b      0xe1c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x00010ea7      0x361 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x00011208      0x3de CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x000115e6      0x8ea CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x00011ed0      0xf54 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x00012e24      0xaf8 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x0001391c     0x1f2f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x0001584b      0x557 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x00015da2      0xdb3 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00016b55      0xc28 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x0001777d     0x17f7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_str      0x00000000     0x7c30
- .debug_str     0x00000000     0x7c30 CMakeFiles/PicoPong.dir/pico-ssd1306/ssd1306.c.obj
+.debug_str      0x00000000     0x7c1e
+ .debug_str     0x00000000     0x7c1e CMakeFiles/PicoPong.dir/pico-ssd1306/ssd1306.c.obj
                                 0x946 (size before relaxing)
- .debug_str     0x00007c30      0x9f5 CMakeFiles/PicoPong.dir/PicoPong.c.obj
- .debug_str     0x00007c30      0x926 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_str     0x00007c30      0x22b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
- .debug_str     0x00007c30      0x36f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
- .debug_str     0x00007c30      0x356 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_str     0x00007c30      0xc81 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
- .debug_str     0x00007c30      0x736 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_str     0x00007c30      0x824 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_str     0x00007c30      0x20c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
- .debug_str     0x00007c30      0x5fe CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
- .debug_str     0x00007c30      0x2cc CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
- .debug_str     0x00007c30      0x3fc CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
- .debug_str     0x00007c30      0x6d3 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_str     0x00007c30      0xa04 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_str     0x00007c30      0x2e7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_str     0x00007c30      0x32d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_str     0x00007c30      0x22a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_str     0x00007c30      0x276 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_adc/adc.c.obj
- .debug_str     0x00007c30      0x7ed CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_str     0x00007c30      0x48b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_str     0x00007c30       0x86 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_str     0x00007c30      0x282 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_str     0x00007c30       0x80 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
- .debug_str     0x00007c30       0x84 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_str     0x00007c30      0x2cb CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_str     0x00007c30       0x8a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_str     0x00007c30       0x8f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_str     0x00007c30       0x82 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_str     0x00007c30      0x2c7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_str     0x00007c30       0x88 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_str     0x00007c30      0x239 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_str     0x00007c30       0x86 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_str     0x00007c30       0x83 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_str     0x00007c30      0x427 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_str     0x00007c30      0x9d7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_str     0x00007c30      0x771 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_str     0x00007c30      0xb2a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_str     0x00007c30      0xe61 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_str     0x00007c30      0x27e CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_str     0x00007c30      0x61e CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_str     0x00007c30      0xed0 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_str     0x00007c30      0x823 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_str     0x00007c30     0x1749 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
- .debug_str     0x00007c30      0x52d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_str     0x00007c30     0x1522 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_str     0x00007c30      0xad4 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
- .debug_str     0x00007c30      0x75d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_str     0x00007c1e      0x9e3 CMakeFiles/PicoPong.dir/PicoPong.c.obj
+ .debug_str     0x00007c1e      0x926 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_str     0x00007c1e      0x22b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_platform/platform.c.obj
+ .debug_str     0x00007c1e      0x36f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_str     0x00007c1e      0x356 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x00007c1e      0xc81 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_time/time.c.obj
+ .debug_str     0x00007c1e      0x736 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x00007c1e      0x824 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x00007c1e      0x20c CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x00007c1e      0x5fe CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x00007c1e      0x2cc CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_sync/critical_section.c.obj
+ .debug_str     0x00007c1e      0x3fc CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/common/pico_util/pheap.c.obj
+ .debug_str     0x00007c1e      0x6d3 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x00007c1e      0xa04 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_str     0x00007c1e      0x2e7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x00007c1e      0x32d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_str     0x00007c1e      0x22a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x00007c1e      0x276 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_str     0x00007c1e      0x7ed CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x00007c1e      0x48b CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x00007c1e       0x86 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x00007c1e      0x282 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x00007c1e       0x80 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_divider/divider.S.obj
+ .debug_str     0x00007c1e       0x84 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_str     0x00007c1e      0x2cb CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_str     0x00007c1e       0x8a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_str     0x00007c1e       0x8f CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x00007c1e       0x82 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_str     0x00007c1e      0x2c7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_str     0x00007c1e       0x88 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_str     0x00007c1e      0x239 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_str     0x00007c1e       0x86 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x00007c1e       0x83 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_str     0x00007c1e      0x427 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_str     0x00007c1e      0x9d7 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_str     0x00007c1e      0x771 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_str     0x00007c1e      0xb2a CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_str     0x00007c1e      0xe61 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_str     0x00007c1e      0x27e CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_str     0x00007c1e      0x61e CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_str     0x00007c1e      0xed0 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_str     0x00007c1e      0x823 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_str     0x00007c1e     0x1749 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd.c.obj
+ .debug_str     0x00007c1e      0x52d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_str     0x00007c1e     0x1522 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_str     0x00007c1e      0xad4 CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/tusb.c.obj
+ .debug_str     0x00007c1e      0x75d CMakeFiles/PicoPong.dir/Users/aadeshshah/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_frame    0x00000000     0x3784
  .debug_frame   0x00000000      0x2c8 CMakeFiles/PicoPong.dir/pico-ssd1306/ssd1306.c.obj

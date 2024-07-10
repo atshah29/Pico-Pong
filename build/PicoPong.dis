@@ -31,23 +31,23 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  13 .comment      00000044  00000000  00000000  0000d168  2**0
                   CONTENTS, READONLY
- 14 .debug_info   00027438  00000000  00000000  0000d1ac  2**0
+ 14 .debug_info   00027420  00000000  00000000  0000d1ac  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_abbrev 00007b02  00000000  00000000  000345e4  2**0
+ 15 .debug_abbrev 00007b02  00000000  00000000  000345cc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_loclists 00010ba7  00000000  00000000  0003c0e6  2**0
+ 16 .debug_loclists 00010b86  00000000  00000000  0003c0ce  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_aranges 00001788  00000000  00000000  0004cc90  2**3
+ 17 .debug_aranges 00001788  00000000  00000000  0004cc58  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_rnglists 00001811  00000000  00000000  0004e418  2**0
+ 18 .debug_rnglists 00001811  00000000  00000000  0004e3e0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   00018f75  00000000  00000000  0004fc29  2**0
+ 19 .debug_line   00018f74  00000000  00000000  0004fbf1  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    00007c30  00000000  00000000  00068b9e  2**0
+ 20 .debug_str    00007c1e  00000000  00000000  00068b65  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_frame  00003784  00000000  00000000  000707d0  2**2
+ 21 .debug_frame  00003784  00000000  00000000  00070784  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 00000359  00000000  00000000  00073f54  2**0
+ 22 .debug_line_str 00000359  00000000  00000000  00073f08  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 /Users/aadeshshah/pico/PicoPong/build/PicoPong.elf:     file format elf32-littlearm
@@ -994,138 +994,138 @@ Disassembly of section .text:
 10000862:	4953      	ldr	r1, [pc, #332]	@ (100009b0 <main+0x1f8>)
 10000864:	2010      	movs	r0, #16
 10000866:	f7ff ff8d 	bl	10000784 <playTone>
-1000086a:	4852      	ldr	r0, [pc, #328]	@ (100009b4 <main+0x1fc>)
-1000086c:	f000 ff43 	bl	100016f6 <sleep_ms>
-10000870:	0020      	movs	r0, r4
-10000872:	f7ff fde1 	bl	10000438 <ssd1306_clear>
-10000876:	2300      	movs	r3, #0
-10000878:	4698      	mov	r8, r3
-1000087a:	2702      	movs	r7, #2
-1000087c:	2602      	movs	r6, #2
-1000087e:	2520      	movs	r5, #32
-10000880:	2440      	movs	r4, #64	@ 0x40
-10000882:	e04b      	b.n	1000091c <main+0x164>
-10000884:	2300      	movs	r3, #0
-10000886:	4699      	mov	r9, r3
-10000888:	19a4      	adds	r4, r4, r6
-1000088a:	19ed      	adds	r5, r5, r7
-1000088c:	2c00      	cmp	r4, #0
-1000088e:	dd64      	ble.n	1000095a <main+0x1a2>
-10000890:	2c7b      	cmp	r4, #123	@ 0x7b
-10000892:	dd00      	ble.n	10000896 <main+0xde>
-10000894:	4276      	negs	r6, r6
-10000896:	46ab      	mov	fp, r5
-10000898:	1e6b      	subs	r3, r5, #1
-1000089a:	2b3a      	cmp	r3, #58	@ 0x3a
-1000089c:	d900      	bls.n	100008a0 <main+0xe8>
-1000089e:	427f      	negs	r7, r7
-100008a0:	2c03      	cmp	r4, #3
-100008a2:	dc14      	bgt.n	100008ce <main+0x116>
-100008a4:	45a9      	cmp	r9, r5
-100008a6:	dc12      	bgt.n	100008ce <main+0x116>
-100008a8:	464b      	mov	r3, r9
-100008aa:	330f      	adds	r3, #15
-100008ac:	42ab      	cmp	r3, r5
-100008ae:	db0e      	blt.n	100008ce <main+0x116>
-100008b0:	2319      	movs	r3, #25
-100008b2:	469c      	mov	ip, r3
-100008b4:	44e0      	add	r8, ip
-100008b6:	2296      	movs	r2, #150	@ 0x96
-100008b8:	493f      	ldr	r1, [pc, #252]	@ (100009b8 <main+0x200>)
-100008ba:	2010      	movs	r0, #16
-100008bc:	f7ff ff62 	bl	10000784 <playTone>
-100008c0:	21fa      	movs	r1, #250	@ 0xfa
-100008c2:	2200      	movs	r2, #0
-100008c4:	0049      	lsls	r1, r1, #1
-100008c6:	2010      	movs	r0, #16
-100008c8:	f7ff ff16 	bl	100006f8 <set_pwm_pin>
-100008cc:	4276      	negs	r6, r6
-100008ce:	493b      	ldr	r1, [pc, #236]	@ (100009bc <main+0x204>)
-100008d0:	ab02      	add	r3, sp, #8
-100008d2:	469a      	mov	sl, r3
-100008d4:	4642      	mov	r2, r8
-100008d6:	0018      	movs	r0, r3
-100008d8:	f003 f9fa 	bl	10003cd0 <__wrap_sprintf>
-100008dc:	a807      	add	r0, sp, #28
-100008de:	f7ff fdab 	bl	10000438 <ssd1306_clear>
-100008e2:	4653      	mov	r3, sl
-100008e4:	9300      	str	r3, [sp, #0]
-100008e6:	2302      	movs	r3, #2
-100008e8:	220e      	movs	r2, #14
-100008ea:	2100      	movs	r1, #0
-100008ec:	a807      	add	r0, sp, #28
-100008ee:	f7ff fe63 	bl	100005b8 <ssd1306_draw_string>
-100008f2:	230f      	movs	r3, #15
-100008f4:	9300      	str	r3, [sp, #0]
-100008f6:	3b0c      	subs	r3, #12
-100008f8:	464a      	mov	r2, r9
-100008fa:	2100      	movs	r1, #0
-100008fc:	a807      	add	r0, sp, #28
-100008fe:	f7ff fdb6 	bl	1000046e <ssd1306_draw_square>
-10000902:	2304      	movs	r3, #4
-10000904:	9300      	str	r3, [sp, #0]
-10000906:	465a      	mov	r2, fp
-10000908:	0021      	movs	r1, r4
-1000090a:	a807      	add	r0, sp, #28
-1000090c:	f7ff fdaf 	bl	1000046e <ssd1306_draw_square>
-10000910:	a807      	add	r0, sp, #28
-10000912:	f7ff fe5d 	bl	100005d0 <ssd1306_show>
-10000916:	2014      	movs	r0, #20
-10000918:	f000 feed 	bl	100016f6 <sleep_ms>
-1000091c:	4b28      	ldr	r3, [pc, #160]	@ (100009c0 <main+0x208>)
-1000091e:	2204      	movs	r2, #4
-10000920:	601a      	str	r2, [r3, #0]
-10000922:	4b1b      	ldr	r3, [pc, #108]	@ (10000990 <main+0x1d8>)
-10000924:	681b      	ldr	r3, [r3, #0]
-10000926:	05db      	lsls	r3, r3, #23
-10000928:	d5fb      	bpl.n	10000922 <main+0x16a>
-1000092a:	4b19      	ldr	r3, [pc, #100]	@ (10000990 <main+0x1d8>)
-1000092c:	685b      	ldr	r3, [r3, #4]
-1000092e:	041b      	lsls	r3, r3, #16
-10000930:	0c1a      	lsrs	r2, r3, #16
-10000932:	0bdb      	lsrs	r3, r3, #15
-10000934:	189b      	adds	r3, r3, r2
-10000936:	011a      	lsls	r2, r3, #4
-10000938:	189b      	adds	r3, r3, r2
-1000093a:	17da      	asrs	r2, r3, #31
-1000093c:	0512      	lsls	r2, r2, #20
-1000093e:	0d12      	lsrs	r2, r2, #20
-10000940:	18d2      	adds	r2, r2, r3
-10000942:	1312      	asrs	r2, r2, #12
-10000944:	4691      	mov	r9, r2
-10000946:	4a1f      	ldr	r2, [pc, #124]	@ (100009c4 <main+0x20c>)
-10000948:	4293      	cmp	r3, r2
-1000094a:	db9b      	blt.n	10000884 <main+0xcc>
-1000094c:	22c8      	movs	r2, #200	@ 0xc8
-1000094e:	0292      	lsls	r2, r2, #10
-10000950:	4293      	cmp	r3, r2
-10000952:	db99      	blt.n	10000888 <main+0xd0>
-10000954:	2331      	movs	r3, #49	@ 0x31
-10000956:	4699      	mov	r9, r3
-10000958:	e796      	b.n	10000888 <main+0xd0>
-1000095a:	a807      	add	r0, sp, #28
-1000095c:	f7ff fd6c 	bl	10000438 <ssd1306_clear>
-10000960:	4b19      	ldr	r3, [pc, #100]	@ (100009c8 <main+0x210>)
-10000962:	9300      	str	r3, [sp, #0]
-10000964:	2302      	movs	r3, #2
-10000966:	220e      	movs	r2, #14
-10000968:	2100      	movs	r1, #0
-1000096a:	a807      	add	r0, sp, #28
-1000096c:	f7ff fe24 	bl	100005b8 <ssd1306_draw_string>
-10000970:	a807      	add	r0, sp, #28
-10000972:	f7ff fe2d 	bl	100005d0 <ssd1306_show>
-10000976:	480f      	ldr	r0, [pc, #60]	@ (100009b4 <main+0x1fc>)
-10000978:	f000 febd 	bl	100016f6 <sleep_ms>
-1000097c:	2300      	movs	r3, #0
-1000097e:	4698      	mov	r8, r3
-10000980:	2702      	movs	r7, #2
-10000982:	2602      	movs	r6, #2
-10000984:	2520      	movs	r5, #32
-10000986:	2440      	movs	r4, #64	@ 0x40
-10000988:	3320      	adds	r3, #32
-1000098a:	4699      	mov	r9, r3
-1000098c:	e780      	b.n	10000890 <main+0xd8>
-1000098e:	46c0      	nop			@ (mov r8, r8)
+1000086a:	20fa      	movs	r0, #250	@ 0xfa
+1000086c:	0100      	lsls	r0, r0, #4
+1000086e:	f000 ff42 	bl	100016f6 <sleep_ms>
+10000872:	0020      	movs	r0, r4
+10000874:	f7ff fde0 	bl	10000438 <ssd1306_clear>
+10000878:	2300      	movs	r3, #0
+1000087a:	4698      	mov	r8, r3
+1000087c:	2702      	movs	r7, #2
+1000087e:	2602      	movs	r6, #2
+10000880:	2520      	movs	r5, #32
+10000882:	2440      	movs	r4, #64	@ 0x40
+10000884:	e04b      	b.n	1000091e <main+0x166>
+10000886:	2300      	movs	r3, #0
+10000888:	4699      	mov	r9, r3
+1000088a:	19a4      	adds	r4, r4, r6
+1000088c:	19ed      	adds	r5, r5, r7
+1000088e:	2c00      	cmp	r4, #0
+10000890:	dd64      	ble.n	1000095c <main+0x1a4>
+10000892:	2c7b      	cmp	r4, #123	@ 0x7b
+10000894:	dd00      	ble.n	10000898 <main+0xe0>
+10000896:	4276      	negs	r6, r6
+10000898:	46ab      	mov	fp, r5
+1000089a:	1e6b      	subs	r3, r5, #1
+1000089c:	2b3a      	cmp	r3, #58	@ 0x3a
+1000089e:	d900      	bls.n	100008a2 <main+0xea>
+100008a0:	427f      	negs	r7, r7
+100008a2:	2c03      	cmp	r4, #3
+100008a4:	dc14      	bgt.n	100008d0 <main+0x118>
+100008a6:	45a9      	cmp	r9, r5
+100008a8:	dc12      	bgt.n	100008d0 <main+0x118>
+100008aa:	464b      	mov	r3, r9
+100008ac:	330f      	adds	r3, #15
+100008ae:	42ab      	cmp	r3, r5
+100008b0:	db0e      	blt.n	100008d0 <main+0x118>
+100008b2:	2319      	movs	r3, #25
+100008b4:	469c      	mov	ip, r3
+100008b6:	44e0      	add	r8, ip
+100008b8:	2296      	movs	r2, #150	@ 0x96
+100008ba:	493e      	ldr	r1, [pc, #248]	@ (100009b4 <main+0x1fc>)
+100008bc:	2010      	movs	r0, #16
+100008be:	f7ff ff61 	bl	10000784 <playTone>
+100008c2:	21fa      	movs	r1, #250	@ 0xfa
+100008c4:	2200      	movs	r2, #0
+100008c6:	0049      	lsls	r1, r1, #1
+100008c8:	2010      	movs	r0, #16
+100008ca:	f7ff ff15 	bl	100006f8 <set_pwm_pin>
+100008ce:	4276      	negs	r6, r6
+100008d0:	4939      	ldr	r1, [pc, #228]	@ (100009b8 <main+0x200>)
+100008d2:	ab02      	add	r3, sp, #8
+100008d4:	469a      	mov	sl, r3
+100008d6:	4642      	mov	r2, r8
+100008d8:	0018      	movs	r0, r3
+100008da:	f003 f9f9 	bl	10003cd0 <__wrap_sprintf>
+100008de:	a807      	add	r0, sp, #28
+100008e0:	f7ff fdaa 	bl	10000438 <ssd1306_clear>
+100008e4:	4653      	mov	r3, sl
+100008e6:	9300      	str	r3, [sp, #0]
+100008e8:	2302      	movs	r3, #2
+100008ea:	220e      	movs	r2, #14
+100008ec:	2100      	movs	r1, #0
+100008ee:	a807      	add	r0, sp, #28
+100008f0:	f7ff fe62 	bl	100005b8 <ssd1306_draw_string>
+100008f4:	230f      	movs	r3, #15
+100008f6:	9300      	str	r3, [sp, #0]
+100008f8:	3b0c      	subs	r3, #12
+100008fa:	464a      	mov	r2, r9
+100008fc:	2100      	movs	r1, #0
+100008fe:	a807      	add	r0, sp, #28
+10000900:	f7ff fdb5 	bl	1000046e <ssd1306_draw_square>
+10000904:	2304      	movs	r3, #4
+10000906:	9300      	str	r3, [sp, #0]
+10000908:	465a      	mov	r2, fp
+1000090a:	0021      	movs	r1, r4
+1000090c:	a807      	add	r0, sp, #28
+1000090e:	f7ff fdae 	bl	1000046e <ssd1306_draw_square>
+10000912:	a807      	add	r0, sp, #28
+10000914:	f7ff fe5c 	bl	100005d0 <ssd1306_show>
+10000918:	2014      	movs	r0, #20
+1000091a:	f000 feec 	bl	100016f6 <sleep_ms>
+1000091e:	4b27      	ldr	r3, [pc, #156]	@ (100009bc <main+0x204>)
+10000920:	2204      	movs	r2, #4
+10000922:	601a      	str	r2, [r3, #0]
+10000924:	4b1a      	ldr	r3, [pc, #104]	@ (10000990 <main+0x1d8>)
+10000926:	681b      	ldr	r3, [r3, #0]
+10000928:	05db      	lsls	r3, r3, #23
+1000092a:	d5fb      	bpl.n	10000924 <main+0x16c>
+1000092c:	4b18      	ldr	r3, [pc, #96]	@ (10000990 <main+0x1d8>)
+1000092e:	685b      	ldr	r3, [r3, #4]
+10000930:	041b      	lsls	r3, r3, #16
+10000932:	0c1a      	lsrs	r2, r3, #16
+10000934:	0bdb      	lsrs	r3, r3, #15
+10000936:	189b      	adds	r3, r3, r2
+10000938:	011a      	lsls	r2, r3, #4
+1000093a:	189b      	adds	r3, r3, r2
+1000093c:	17da      	asrs	r2, r3, #31
+1000093e:	0512      	lsls	r2, r2, #20
+10000940:	0d12      	lsrs	r2, r2, #20
+10000942:	18d2      	adds	r2, r2, r3
+10000944:	1312      	asrs	r2, r2, #12
+10000946:	4691      	mov	r9, r2
+10000948:	4a1d      	ldr	r2, [pc, #116]	@ (100009c0 <main+0x208>)
+1000094a:	4293      	cmp	r3, r2
+1000094c:	db9b      	blt.n	10000886 <main+0xce>
+1000094e:	22c8      	movs	r2, #200	@ 0xc8
+10000950:	0292      	lsls	r2, r2, #10
+10000952:	4293      	cmp	r3, r2
+10000954:	db99      	blt.n	1000088a <main+0xd2>
+10000956:	2331      	movs	r3, #49	@ 0x31
+10000958:	4699      	mov	r9, r3
+1000095a:	e796      	b.n	1000088a <main+0xd2>
+1000095c:	a807      	add	r0, sp, #28
+1000095e:	f7ff fd6b 	bl	10000438 <ssd1306_clear>
+10000962:	4b18      	ldr	r3, [pc, #96]	@ (100009c4 <main+0x20c>)
+10000964:	9300      	str	r3, [sp, #0]
+10000966:	2302      	movs	r3, #2
+10000968:	220e      	movs	r2, #14
+1000096a:	2100      	movs	r1, #0
+1000096c:	a807      	add	r0, sp, #28
+1000096e:	f7ff fe23 	bl	100005b8 <ssd1306_draw_string>
+10000972:	a807      	add	r0, sp, #28
+10000974:	f7ff fe2c 	bl	100005d0 <ssd1306_show>
+10000978:	4813      	ldr	r0, [pc, #76]	@ (100009c8 <main+0x210>)
+1000097a:	f000 febc 	bl	100016f6 <sleep_ms>
+1000097e:	2300      	movs	r3, #0
+10000980:	4698      	mov	r8, r3
+10000982:	2702      	movs	r7, #2
+10000984:	2602      	movs	r6, #2
+10000986:	2520      	movs	r5, #32
+10000988:	2440      	movs	r4, #64	@ 0x40
+1000098a:	3320      	adds	r3, #32
+1000098c:	4699      	mov	r9, r3
+1000098e:	e780      	b.n	10000892 <main+0xda>
 10000990:	4004c000 	.word	0x4004c000
 10000994:	4004d000 	.word	0x4004d000
 10000998:	20000b00 	.word	0x20000b00
@@ -1135,12 +1135,12 @@ Disassembly of section .text:
 100009a8:	43a4d0a4 	.word	0x43a4d0a4
 100009ac:	43c40000 	.word	0x43c40000
 100009b0:	4402d000 	.word	0x4402d000
-100009b4:	00001388 	.word	0x00001388
-100009b8:	43fa0000 	.word	0x43fa0000
-100009bc:	10008090 	.word	0x10008090
-100009c0:	4004e000 	.word	0x4004e000
-100009c4:	fffff001 	.word	0xfffff001
-100009c8:	10008084 	.word	0x10008084
+100009b4:	43fa0000 	.word	0x43fa0000
+100009b8:	10008090 	.word	0x10008090
+100009bc:	4004e000 	.word	0x4004e000
+100009c0:	fffff001 	.word	0xfffff001
+100009c4:	10008084 	.word	0x10008084
+100009c8:	00001388 	.word	0x00001388
 
 100009cc <i2c_write_blocking_internal>:
 100009cc:	b5f0      	push	{r4, r5, r6, r7, lr}
