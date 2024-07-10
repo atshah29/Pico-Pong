@@ -108,8 +108,23 @@ int main()
 
         ballx+= ball_dx;
         bally+= ball_dy;
+
+       
+        if(ballx<= 0){
+        score=0;
+        ssd1306_clear(&display); 
+        ssd1306_draw_string(&display, 0, SCREEN_HEIGHT-50, 2, "TRY AGAIN");
+        ssd1306_show(&display);
+        paddle_y= SCREEN_HEIGHT/2;
+        ballx = SCREEN_WIDTH / 2;
+        bally = SCREEN_HEIGHT / 2;
+        ball_dx = 2;
+        ball_dy = 2;
+        sleep_ms(5000);
+        }
+
         
-         if (ballx <= 0 || ballx >= SCREEN_WIDTH - ball_size) { // if ball hits left/right boundary
+         if (ballx >= SCREEN_WIDTH - ball_size) { // if ball hits right boundary
             ball_dx = -ball_dx;
          }
 
@@ -119,17 +134,20 @@ int main()
          }
 
          if (ballx <= 3 && bally >= paddle_y && bally <= paddle_y + 15) {
-            score+=100;
+            score+=25;
             playTone(BUZZER_PIN, 500, 150 );
             set_pwm_pin(BUZZER_PIN, 500, 0);
             ball_dx = -ball_dx;
         }
 
+
+
+ 
         sprintf(scoreStr, "Score: %d", score);
         const char *scoreConstStr = scoreStr;
 
         ssd1306_clear(&display);
-        ssd1306_draw_string(&display, 10, 10, 1, scoreConstStr);
+        ssd1306_draw_string(&display, 0, SCREEN_HEIGHT-50, 2, scoreConstStr);
         ssd1306_draw_square(&display, 0, paddle_y, 3, 15);
         ssd1306_draw_square(&display, ballx, bally, ball_size, ball_size);
         ssd1306_show(&display);
